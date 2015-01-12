@@ -267,7 +267,7 @@ class OssnGroup extends OssnObject {
      */
     public function sendRequest($from, $group) {
         if (!$this->requestExists($from, $group)) {
-            if (ossn_add_relation($from, $group, 'group:join')) {
+        	if (ossn_add_relation($from, $group, 'group:join')) {
 				// #186 send notification to Group Owner
 				$current_group = $this->getGroup($group);
 				$group_owner = $current_group->owner_guid;
@@ -294,8 +294,7 @@ class OssnGroup extends OssnObject {
 					return true;
 				}
 				// not very likely to end here, but if: should we do a rollback of the relation, too?
-                return false;
-            }
+        	}
         }
         return false;
     }
