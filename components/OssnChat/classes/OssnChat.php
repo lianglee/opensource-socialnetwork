@@ -97,23 +97,23 @@ class OssnChat extends OssnDatabase {
     public static function loadIcons() {
         $icon = ossn_site_url() . 'components/OssnChat/images/emoticons/';
         $icons = array(
-            ':(' => "<img src='{$icon}ossnchat-sad.gif' class='ossn-chat-icon' />",
-            ':)' => "<img src='{$icon}ossnchat-smile.gif' class='ossn-chat-icon' />",
-            '=D' => "<img src='{$icon}ossnchat-happy.gif' class='ossn-chat-icon' />",
-            ';)' => "<img src='{$icon}ossnchat-wink.gif' class='ossn-chat-icon' />",
-            ':p' => "<img src='{$icon}ossnchat-tongue.gif' class='ossn-chat-icon' />",
-            '8|' => "<img src='{$icon}ossnchat-sunglasses.gif' class='ossn-chat-icon' />",
-            'o.O' => "<img src='{$icon}ossnchat-confused.gif' class='ossn-chat-icon' />",
-            ':O' => "<img src='{$icon}ossnchat-gasp.gif' class='ossn-chat-icon' />",
-            ':*' => "<img src='{$icon}ossnchat-kiss.gif' class='ossn-chat-icon' />",
-            'a:' => "<img src='{$icon}ossnchat-angel.gif' class='ossn-chat-icon' />",
-            ':h:' => "<img src='{$icon}ossnchat-heart.gif' class='ossn-chat-icon' />",
-            '3:|' => "<img src='{$icon}ossnchat-devil.gif' class='ossn-chat-icon' />",
-            'u:' => "<img src='{$icon}ossnchat-upset.gif' class='ossn-chat-icon' />",
-            ':v' => "<img src='{$icon}ossnchat-pacman.gif' class='ossn-chat-icon' />",
-            'g:' => "<img src='{$icon}ossnchat-grumpy.gif' class='ossn-chat-icon' />",
-            '8)' => "<img src='{$icon}ossnchat-glasses.gif' class='ossn-chat-icon' />",
-            "c:" => "<img src='{$icon}ossnchat-cry.gif' class='ossn-chat-icon' />"
+            ':(' => "<img src='{$icon}ossnchat-sad.gif' class='ossn-chat-icon' width='14' height='14'/>",
+            ':)' => "<img src='{$icon}ossnchat-smile.gif' class='ossn-chat-icon' width='14' height='14'/>",
+            '=D' => "<img src='{$icon}ossnchat-happy.gif' class='ossn-chat-icon' width='14' height='14'/>",
+            ';)' => "<img src='{$icon}ossnchat-wink.gif' class='ossn-chat-icon' width='14' height='14'/>",
+            ':p' => "<img src='{$icon}ossnchat-tongue.gif' class='ossn-chat-icon' width='14' height='14'/>",
+            '8|' => "<img src='{$icon}ossnchat-sunglasses.gif' class='ossn-chat-icon' width='14' height='14'/>",
+            'o.O' => "<img src='{$icon}ossnchat-confused.gif' class='ossn-chat-icon' width='14' height='14'/>",
+            ':O' => "<img src='{$icon}ossnchat-gasp.gif' class='ossn-chat-icon' width='14' height='14'/>",
+            ':*' => "<img src='{$icon}ossnchat-kiss.gif' class='ossn-chat-icon' width='14' height='14'/>",
+            'a:' => "<img src='{$icon}ossnchat-angel.gif' class='ossn-chat-icon' width='16' height='15'/>",
+            ':h:' => "<img src='{$icon}ossnchat-heart.gif' class='ossn-chat-icon' width='15' height='14'/>",
+            '3:|' => "<img src='{$icon}ossnchat-devil.gif' class='ossn-chat-icon' width='14' height='15'/>",
+            'u:' => "<img src='{$icon}ossnchat-upset.gif' class='ossn-chat-icon' width='14' height='14'/>",
+            ':v' => "<img src='{$icon}ossnchat-pacman.gif' class='ossn-chat-icon' width='13' height='14'/>",
+            'g:' => "<img src='{$icon}ossnchat-grumpy.gif' class='ossn-chat-icon' width='14' height='14'/>",
+            '8)' => "<img src='{$icon}ossnchat-glasses.gif' class='ossn-chat-icon' width='14' height='14'/>",
+            "c:" => "<img src='{$icon}ossnchat-cry.gif' class='ossn-chat-icon' width='14' height='14'/>"
         );
         return $icons;
 
